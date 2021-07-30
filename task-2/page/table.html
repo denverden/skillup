@@ -5,6 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Table</title>
+  <style>
+    table, th, td {
+      border: 1px solid #ccc;
+      border-spacing: 0px;
+    }
+    th, td {
+      padding: 5px 10px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -19,7 +28,39 @@
     </nav>
   </header>
   <hr>
-  <main></main>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Браузер</th>
+          <th>Количество<br>посетителей</th>
+          <th>Процент</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Firefox</td>
+          <td>78</td>
+          <td>28%</td>
+        </tr>
+        <tr>
+          <td>Chrome</td>
+          <td>163</td>
+          <td>59%</td>
+        </tr>
+        <tr>
+          <td>Safari</td>
+          <td>35</td>
+          <td>13%</td>
+        </tr>
+        <tr>
+          <td>IE</td>
+          <td>0</td>
+          <td>0%</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
   <hr>
   <footer>Все права защищены &copy;</footer>
 </body>
