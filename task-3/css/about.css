@@ -1,0 +1,39 @@
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-red {
+  color: red;
+}
+
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-line {
+  border-bottom: 1px solid black;
+}
+
+.text-indent {
+  text-indent: 25px;
+}
+
+div {
+  border: 1px solid black;
+  padding: 25px;
+}
