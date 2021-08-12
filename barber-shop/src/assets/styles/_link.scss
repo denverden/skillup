@@ -1,0 +1,9 @@
+.link {
+  display: flex;
+  color: white;
+  transition: 0.3s color;
+
+  &:hover {
+    color: $main-color;
+  }
+}

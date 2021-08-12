@@ -1,0 +1,21 @@
+.menu {
+  margin-top: 43px;
+  margin-left: 48px;
+
+  &-list {
+    display: flex;
+    list-style: none;
+  }
+
+  &-item {
+    margin-right: 51px;  
+  }
+
+  &-link {
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+  }
+}

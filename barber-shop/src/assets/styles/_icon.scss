@@ -1,0 +1,26 @@
+.icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-mobile {
+    background-image: url(../icons/mobile.svg);
+    width: 16px;
+    height: 27px;
+    margin-right: 8px;
+    margin-top: 2px;
+  }
+
+  &-instagram {
+    background-image: url(../icons/instagram.svg);
+  }
+
+  &-facebook {
+    background-image: url(../icons/facebook.svg);
+  }
+
+  &-vk {
+    background-image: url(../icons/vk.svg);
+  }
+}
