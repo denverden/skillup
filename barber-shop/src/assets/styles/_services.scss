@@ -1,0 +1,48 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(14, 14, 15, 0.94);
+  position: relative;
+
+  &-title {
+    display: flex;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: white;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 25px;
+      left: -165px;
+      width: 150px;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 25px;
+      left: 147px;
+      width: 150px;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  &-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-btn {
+    margin: 10px 0px 70px;
+  }
+}
