@@ -20,40 +20,10 @@
     background: rgba(0, 0, 0, 0.7);
   }
 
-  &-title {
-    display: flex;
-    margin-top: 66px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 49px;
-    color: white;
-    position: relative;
-    z-index: 1;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 26px;
-      left: -165px;
-      width: 150px;
-      height: 1px;
-      background: rgba(255, 255, 255, 0.4);
-    }
-
-    &::after {
-      content: '';
-      position: absolute;
-      top: 27px;
-      left: 302px;
-      width: 150px;
-      height: 1px;
-      background: rgba(255, 255, 255, 0.4);
-    }
-  }
-
   &-content {
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    z-index: 1;
   }
 }

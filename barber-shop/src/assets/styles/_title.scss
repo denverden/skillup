@@ -1,0 +1,30 @@
+.title {
+  display: flex;
+  margin-top: 66px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: white;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: -170px;
+    width: 150px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: -170px;
+    width: 150px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+}

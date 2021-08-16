@@ -28,5 +28,9 @@
     text-align: center;
     color: white;
     width: 225px;
+
+    &--gray {
+      opacity: 0.6;
+    }
   }
 }
